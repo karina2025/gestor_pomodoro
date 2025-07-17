@@ -4,7 +4,7 @@
     "tareas": [
       {
         "descripcion": "dile que yo me se tu pose favorita ",
-        "tiempoDedicado": 0,
+        "tiempoDedicado": 75,
         "completada": false
       }
     ]

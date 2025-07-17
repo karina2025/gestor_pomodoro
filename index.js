@@ -4,7 +4,7 @@ const ora = require('ora');
 const chalk = require('chalk');
 const fs = require('fs');
 
-console.log("Valor de chalk:", chalk); // <-- Añade esta línea TEMPORALMENTE
+console.log("Valor de chalk:", chalk); // 
 
 let proyectos = [];
 
@@ -137,7 +137,7 @@ function iniciarPomodoro() {
         choices: tareasPlanas
     }).then(answers => {
         const { proyecto, tarea } = answers.tareaSeleccionada;
-        const tiempoPomodoro = 25 * 60 * 1000; // 25 minutos en milisegundos
+        const tiempoPomodoro = 5  * 1000; // 25 minutos en milisegundos
         let tiempoRestante = tiempoPomodoro;
 
         const spinner = ora(chalk.magenta(`Iniciando Pomodoro de 25 minutos para la tarea: ${tarea.descripcion}`)).start();
